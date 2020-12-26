@@ -1,0 +1,46 @@
+.nav-menu > ul > li {
+    float: right;   
+}
+
+.nav-menu a.login {
+  margin-left: 12px;  
+}
+
+.nav-menu .drop-down ul a,
+.mobile-nav a,
+.splide__slide .news-box,
+.current-body,
+.section-header.sub-header h3,
+.news-description p,
+.news-description h2 {
+    text-align: right;
+}
+
+.news-details .news-description h2 {
+  width: 100% !important;
+}
+
+.nav-menu .drop-down ul a:hover,
+ .nav-menu .drop-down ul .active > a,
+  .nav-menu .drop-down ul li:hover > a {
+  padding-right: 2rem;
+}
+
+.mobile-nav .drop-down li a {
+  padding-left: 0;
+  padding-right: 4rem;
+}
+
+#footer > div.footer-area > div > div {
+  flex-direction: row-reverse;  
+  text-align: right;  
+}
+
+.section-header.sub-header h3::before {
+  left: calc(100% - 120px);
+}
+
+.section-header.sub-header h3::after {
+  left: calc(100% - 60px);
+  width: 60px;
+}
