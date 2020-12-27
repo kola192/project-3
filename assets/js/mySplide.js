@@ -19,12 +19,13 @@ let partnersSplide = new Splide( '.splide', {
         heightRatio: 1.2,
       },
       768: {
+        gap: '.5rem',
         perPage: 1,
         heightRatio: 1.2,
       },
       459: {
         perPage: 1,
-        heightRatio: 1.2,
+        heightRatio: 1.1,
         interval: 5000,
         speed: 500,
       },
