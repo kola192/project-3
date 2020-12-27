@@ -646,7 +646,7 @@ div#preloader {
   }
   .layer-1-1 h4 {
     font-size: 16px;
-    line-height: 1;
+    line-height: 1.4;
     margin-bottom: 20px;
   }
   .layer-1-2 h1 {
@@ -672,12 +672,12 @@ div#preloader {
   }
   .layer-1-1 h4{
     font-size: 16px;
-    line-height: 1;
+    line-height: 1.4;
     margin-bottom: 20px;
   }
  .layer-1-2 h1 {
     font-size: 28px;
-    line-height: 1;
+    line-height: 1.4;
     margin-bottom: 30px;
   }
 }
@@ -876,6 +876,13 @@ preview-2
 
 .niceties.preview-2 {
   position: relative;
+}
+
+@media (max-width: 480px) {
+  #ensign-nivoslider > div.nivo-directionNav > a.nivo-prevNav::before,
+  #ensign-nivoslider > div.nivo-directionNav > a.nivo-nextNav::before {
+    opacity: 0;
+  }
 }
 
 /*--------------------------------------------------------------
